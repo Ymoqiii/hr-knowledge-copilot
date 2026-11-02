@@ -1,0 +1,14 @@
+[
+  {"id":"leave-days","question":"年假有几天？","expected_terms":["5 个工作日"],"expected_source":"DEMO_请假管理规定.txt","answerable":true},
+  {"id":"leave-apply","question":"年假需要提前几天申请？","expected_terms":["3 个工作日"],"expected_source":"DEMO_请假管理规定.txt","answerable":true},
+  {"id":"personal-leave-pay","question":"事假期间发工资吗？","expected_terms":["不发放","基本工资"],"expected_source":"DEMO_请假管理规定.txt","answerable":true},
+  {"id":"expense-invoice","question":"报销需要什么凭证？","expected_terms":["发票"],"expected_source":"DEMO_报销管理规定.txt","answerable":true},
+  {"id":"expense-late","question":"逾期提交报销会怎样？","expected_terms":["放弃报销"],"expected_source":"DEMO_报销管理规定.txt","answerable":true},
+  {"id":"travel-hotel","question":"出差住宿标准是多少？","expected_terms":["450 元"],"expected_source":"DEMO_出差管理规定.txt","answerable":true},
+  {"id":"travel-meal","question":"出差餐食补助是多少？","expected_terms":["80 元/天"],"expected_source":"DEMO_出差管理规定.txt","answerable":true},
+  {"id":"attendance-late","question":"迟到如何处理？","expected_terms":[],"expected_source":null,"answerable":false},
+  {"id":"confuse-leave-vs-travel","question":"出差申请需要提前几天？","expected_terms":["2 个工作日"],"expected_source":"DEMO_出差管理规定.txt","answerable":true},
+  {"id":"confuse-hotel-vs-meal","question":"出差每晚餐费上限是多少？","expected_terms":[],"expected_source":null,"answerable":false},
+  {"id":"unknown-equity","question":"股权激励归属日历是什么？","expected_terms":[],"expected_source":null,"answerable":false},
+  {"id":"unknown-parental","question":"陪产假有几天？","expected_terms":[],"expected_source":null,"answerable":false}
+]

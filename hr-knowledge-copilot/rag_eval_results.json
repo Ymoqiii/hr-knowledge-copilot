@@ -1,0 +1,163 @@
+[
+  {
+    "id": "leave-days",
+    "question": "年假有几天？",
+    "expected_terms": [
+      "5 个工作日"
+    ],
+    "expected_source": "DEMO_请假管理规定.txt",
+    "answerable": true,
+    "answer": "根据制度片段，员工入职满一年后可申请年假，年假天数为每年 **5 个工作日**。年假须提前 3 个工作日在假勤系统提交申请，经直属主管批准后方可休假；原则上不得跨年累计，当年未使用的年假视为放弃。\n\n来源：DEMO_请假管理规定.txt，页码：1\n\n来源：DEMO_请假管理规定.txt，第 1 页",
+    "answer_ok": true,
+    "source_ok": true,
+    "refusal_ok": true,
+    "status": "evaluated"
+  },
+  {
+    "id": "leave-apply",
+    "question": "年假需要提前几天申请？",
+    "expected_terms": [
+      "3 个工作日"
+    ],
+    "expected_source": "DEMO_请假管理规定.txt",
+    "answerable": true,
+    "answer": "根据《DEMO_请假管理规定.txt》第一条“年假”规定：员工申请年假须提前 **3 个工作日**在假勤系统提交申请，并经直属主管批准后方可休假。\n\n来源：\n- DEMO_请假管理规定.txt，页码：1\n\n来源：DEMO_请假管理规定.txt，第 1 页；DEMO_出差管理规定.txt，第 1 页",
+    "answer_ok": true,
+    "source_ok": true,
+    "refusal_ok": true,
+    "status": "evaluated"
+  },
+  {
+    "id": "personal-leave-pay",
+    "question": "事假期间发工资吗？",
+    "expected_terms": [
+      "不发放",
+      "基本工资"
+    ],
+    "expected_source": "DEMO_请假管理规定.txt",
+    "answerable": true,
+    "answer": "根据制度片段，事假期间**不发放当日基本工资**。此外，事假须至少提前 1 个工作日申请，单次事假不得超过 3 个工作日。\n\n来源：DEMO_请假管理规定.txt，页码：1\n\n（说明：该文件标注为虚构演示数据，不代表任何真实企业制度，不得作为实际管理依据。）\n\n来源：DEMO_请假管理规定.txt，第 1 页",
+    "answer_ok": true,
+    "source_ok": true,
+    "refusal_ok": true,
+    "status": "evaluated"
+  },
+  {
+    "id": "expense-invoice",
+    "question": "报销需要什么凭证？",
+    "expected_terms": [
+      "发票"
+    ],
+    "expected_source": "DEMO_报销管理规定.txt",
+    "answerable": true,
+    "answer": "报销所需凭证依据制度片段为：合规发票，且发票抬头须为演示公司全称、金额须与实际支付一致；同时须在费用系统提交报销单并上传发票影像。无发票、发票模糊或发票日期超过发生日后60天的，财务有权拒绝。\n\n来源：DEMO_报销管理规定.txt，页码：1\n\n来源：DEMO_报销管理规定.txt，第 1 页",
+    "answer_ok": true,
+    "source_ok": true,
+    "refusal_ok": true,
+    "status": "evaluated"
+  },
+  {
+    "id": "expense-late",
+    "question": "逾期提交报销会怎样？",
+    "expected_terms": [
+      "放弃报销"
+    ],
+    "expected_source": "DEMO_报销管理规定.txt",
+    "answerable": true,
+    "answer": "根据制度片段，费用发生后 **15 个工作日内**须在费用系统提交报销单并上传发票影像；**逾期未提交视为放弃报销**。  \n此外，发票日期超过发生日后 **60 天**的，财务有权拒绝。\n\n来源：  \n- 《DEMO_报销管理规定.txt》，页码：1\n\n来源：DEMO_报销管理规定.txt，第 1 页；DEMO_请假管理规定.txt，第 1 页；DEMO_出差管理规定.txt，第 1 页",
+    "answer_ok": true,
+    "source_ok": true,
+    "refusal_ok": true,
+    "status": "evaluated"
+  },
+  {
+    "id": "travel-hotel",
+    "question": "出差住宿标准是多少？",
+    "expected_terms": [
+      "450 元"
+    ],
+    "expected_source": "DEMO_出差管理规定.txt",
+    "answerable": true,
+    "answer": "根据制度片段，出差住宿标准为：**每晚不超过 450 元，超标部分自理**。\n\n需说明的是，该片段标注为【演示数据 / DEMO DATA】，系虚构人事行政制度样本，仅用于作品集演示，不代表任何真实企业制度，不得作为实际管理依据。\n\n来源：\n- DEMO_出差管理规定.txt，第 1 页（第二条 交通与住宿）\n\n来源：DEMO_出差管理规定.txt，第 1 页",
+    "answer_ok": true,
+    "source_ok": true,
+    "refusal_ok": true,
+    "status": "evaluated"
+  },
+  {
+    "id": "travel-meal",
+    "question": "出差餐食补助是多少？",
+    "expected_terms": [
+      "80 元/天"
+    ],
+    "expected_source": "DEMO_出差管理规定.txt",
+    "answerable": true,
+    "answer": "根据制度片段，出差当天给予餐食补助 **80 元/天**；往返当日已由接待方提供工作餐的，不再重复领取补助。\n\n需注意：该片段标注为【演示数据 / DEMO DATA】，系虚构制度样本，仅用于作品集演示，不代表任何真实企业制度，不得作为实际管理依据。\n\n来源：\n- DEMO_出差管理规定.txt，第 1 页（第三条 差旅补助）\n\n来源：DEMO_出差管理规定.txt，第 1 页",
+    "answer_ok": true,
+    "source_ok": true,
+    "refusal_ok": true,
+    "status": "evaluated"
+  },
+  {
+    "id": "attendance-late",
+    "question": "迟到如何处理？",
+    "expected_terms": [],
+    "expected_source": null,
+    "answerable": false,
+    "answer": "知识库未找到足够的制度依据，无法回答该问题。",
+    "answer_ok": true,
+    "source_ok": true,
+    "refusal_ok": true,
+    "status": "evaluated"
+  },
+  {
+    "id": "confuse-leave-vs-travel",
+    "question": "出差申请需要提前几天？",
+    "expected_terms": [
+      "2 个工作日"
+    ],
+    "expected_source": "DEMO_出差管理规定.txt",
+    "answerable": true,
+    "answer": "根据制度片段，出差申请需要**提前 2 个工作日**提交，并写明目的地、天数和事由。\n\n来源：\n- 《DEMO_出差管理规定.txt》，页码：1\n\n来源：DEMO_出差管理规定.txt，第 1 页；DEMO_请假管理规定.txt，第 1 页",
+    "answer_ok": true,
+    "source_ok": true,
+    "refusal_ok": true,
+    "status": "evaluated"
+  },
+  {
+    "id": "confuse-hotel-vs-meal",
+    "question": "出差每晚餐费上限是多少？",
+    "expected_terms": [],
+    "expected_source": null,
+    "answerable": false,
+    "answer": "知识库未找到足够的制度依据，无法回答该问题。\n\n来源：DEMO_出差管理规定.txt，页码：1\n\n来源：DEMO_出差管理规定.txt，第 1 页",
+    "answer_ok": true,
+    "source_ok": true,
+    "refusal_ok": true,
+    "status": "evaluated"
+  },
+  {
+    "id": "unknown-equity",
+    "question": "股权激励归属日历是什么？",
+    "expected_terms": [],
+    "expected_source": null,
+    "answerable": false,
+    "answer": "知识库未找到足够的制度依据，无法回答该问题。",
+    "answer_ok": true,
+    "source_ok": true,
+    "refusal_ok": true,
+    "status": "evaluated"
+  },
+  {
+    "id": "unknown-parental",
+    "question": "陪产假有几天？",
+    "expected_terms": [],
+    "expected_source": null,
+    "answerable": false,
+    "answer": "知识库未找到足够的制度依据，无法回答该问题。",
+    "answer_ok": true,
+    "source_ok": true,
+    "refusal_ok": true,
+    "status": "evaluated"
+  }
+]
